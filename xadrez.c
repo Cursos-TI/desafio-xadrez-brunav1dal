@@ -1,4 +1,4 @@
-// movimentação do jogo de xadrez nivel novato 
+// movimentação do jogo de xadrez nivel aventureiro, adição do cavalo 
 #include <stdio.h>
 
 int main ()
@@ -28,6 +28,21 @@ int main ()
         printf("esquerda\n");
         r++;
     } while (r<8);
+
+    // Cavala se move em  L, duas vezes para baixo e uma vez para esquerda .
+    printf("Movimento do Cavalo:\n");
+
+    int movimentoCavalo = 1;        //Cria-se uma variável conhecida como flag, basicamente um true ou false
+    while (movimentoCavalo--)       //Decrementa a variável de 1 pra zero a fim de que o while só rode uma vez
+    {
+        for (int c=0; c<2; c++)
+        {
+            printf ("Cima \n");
+
+        }
+        printf("Esquerda");
+    }
+    
     
 
 
